@@ -7,7 +7,11 @@ Another way to change the data in an array is with the .pop() function.
 Any type of entry can be "popped" off of an array - numbers, strings, even nested arrays.
 
 var threeArr = [1, 4, 6];
+
 var oneDown = threeArr.pop();
+
 console.log(oneDown); // Returns 6
+
 console.log(threeArr); // Returns [1, 4]
+
 Use the .pop() function to remove the last item from myArray, assigning the "popped off" value to removedFromMyArray.
